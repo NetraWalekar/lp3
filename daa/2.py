@@ -21,7 +21,7 @@ def printNodes(node, val=""):
         print(f"{node.symbol} -> {newval}")
 
 chars = ["a", "b", "c", "d", "e", "f"]
-freqs = [5, 9, 12, 13, 16, 45]
+freqs = [45, 16, 13, 12, 9, 5]
 nodes = []
 
 for i in range(len(chars)):
